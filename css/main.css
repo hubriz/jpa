@@ -20,6 +20,11 @@ a:focus, a:active, img:focus { outline: none; background-color: transparent;}
 .btn.btn-outline { background: none; }
 
 
+.content-section {padding-top: 10px;padding-bottom:10px;}
+.content-section p { font-weight: 100;  font-size: 0.9em; line-height: 20px}
+
+.content-section .panel-body p{ font-weight: 100; }
+
 /* ==========================================================================
 	TOP SECTION
 ========================================================================== */
@@ -88,10 +93,10 @@ a:focus, a:active, img:focus { outline: none; background-color: transparent;}
 ========================================================================== */
 .line-wheel-content { padding-top: 20px; padding-bottom: 20px; border-bottom: 1px solid #bfc1c0;}
 
-.header-group { background-image: url(../img/home/line-wheel.png);background-repeat: no-repeat;background-position: top center;text-align: center; overflow: visible; margin-bottom: 40px;}
+.line-wheel-content .header-group { background-image: url(../img/home/line-wheel.png);background-repeat: no-repeat;background-position: top center;text-align: center; overflow: visible; margin-bottom: 40px;}
 
-.header-group h2 { padding-top: 44px; margin-top: 8px;}
-.header-group p { font-weight: 300; }
+.line-wheel-content .header-group h2 { padding-top: 44px; margin-top: 8px;}
+.line-wheel-content .header-group p { font-weight: 300; }
 
 .list-figure-content { text-align: center }
 .list-figure-content > ul > li { max-width: 320px; margin-bottom: 30px; vertical-align: text-top;}
@@ -138,6 +143,27 @@ a:focus, a:active, img:focus { outline: none; background-color: transparent;}
 @media screen and (max-width: 990px){
 	.line-wheel-content .content-section-custom-bullet > div {  display: block; width: 100%; min-width: 100%; padding-left: 0px; padding-right: 20px; }
 }
+
+
+/* ==========================================================================
+	FULL WIDTH CONTENT
+========================================================================== */
+.full-width { padding-top: 20px; padding-bottom: 20px; border-bottom: 1px solid #bfc1c0;}
+.full-width .header-group {border-bottom: 1px solid #ccc;}
+.full-width .content-section { margin-bottom: 30px; }
+
+/* ==========================================================================
+	TWO COLUMN CONTENT
+========================================================================== */
+.two-col-width { padding-top: 20px; padding-bottom: 20px; border-bottom: 1px solid #bfc1c0;}
+.two-col-width .header-group {border-bottom: 1px solid #ccc;}
+.two-col-width .content-section { margin-bottom: 30px; }
+
+.two-col-width .widget-content { padding-top: 20px;padding-bottom: 20px; margin-bottom:10px;}
+
+.two-col-width .widget-content .panel-body p { font-weight: 100; font-size: 0.9em; line-height: 20px; }
+
+
 
 /* ==========================================================================
 	FOOTER CONTENT
